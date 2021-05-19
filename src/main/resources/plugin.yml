@@ -1,3 +1,7 @@
-name: "{$PluginName}"
-main: "{$PackageName},{$MainClass}"
-version: "{$VersionNumber}"
+name: PluginName
+main: PackageName.MainClass
+version: {$VersionNumber}
+commands:
+    commandname:
+      description: This is a demo command.
+      usage: /<command> [player]
