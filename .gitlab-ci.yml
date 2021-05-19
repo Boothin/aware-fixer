@@ -17,8 +17,6 @@ build:
   stage: build
   script:
     - mvn package
-  tags:
-    - maven
   artifacts:
     name: "PluginName"
     paths:
