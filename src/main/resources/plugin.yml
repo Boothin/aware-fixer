@@ -1,10 +1,13 @@
+# Change main and author as needed
 main: com.package.name.pluginpackage.MainClass
 author: ExampleAuthor
 
+# Automatically filled in at build time, DO NOT CHANGE
 name: ${project.name}
 version: ${project.version}
 description: ${project.description}
 
+# Register commands
 commands:
     commandname:
       description: This is a demo command.

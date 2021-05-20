@@ -1,7 +1,10 @@
-# Test Plugin
+# Blank Plugin Template
+Clone this project and it is directly importable into Eclipse. Base dependencies and file structure are set up. 
 
-Rename Package, java file, and Main Class in src/main/java
+Just need to edit a few things:
 
-Edit main and author in plugin.yml in src/main/resources
+Rename package, java file and MainClass in src/main/java
 
-Edit pom.xml name, artifactid, and version
+Edit plugin.yml in src/main/resources
+
+Edit pom.xml in root dir
