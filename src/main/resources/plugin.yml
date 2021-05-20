@@ -1,6 +1,10 @@
-name: PluginName
-main: PackageName.MainClass
-version: {$VersionNumber}
+main: com.package.name.pluginpackage.MainClass
+author: ExampleAuthor
+
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+
 commands:
     commandname:
       description: This is a demo command.
