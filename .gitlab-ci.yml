@@ -17,7 +17,8 @@ build:
   stage: build
   script:
     - mvn package
+    - cp $CI_PROJECT_DIR/target/*.jar $CI_PROJECT_DIR/
   artifacts:
-    name: "PluginName"
+    name: $CI_PROJECT_NAME
     paths:
-    - target/*.jar
+    - ./*.jar
