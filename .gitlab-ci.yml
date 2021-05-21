@@ -16,8 +16,10 @@ cache:
 build:
   stage: build
   script:
+    - echo "<settings><servers><server><id>ftp-repository</id><username>$FTP_USERNAME</username><password>$FTP_PASSWORD</password></server></servers></settings>" > /root/.m2/settings.xml
     - mvn package
-    - cp $CI_PROJECT_DIR/target/*.jar $CI_PROJECT_DIR/
+    - mv $CI_PROJECT_DIR/target/*.jar $CI_PROJECT_DIR/
+    - if [ -n "$FTP_USERNAME" ]; then mvn wagon:upload; fi
   artifacts:
     name: $CI_PROJECT_NAME
     paths:
