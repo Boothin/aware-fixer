@@ -1,6 +1,7 @@
 # Change main and author as needed
 main: com.package.name.pluginpackage.MainClass
 author: ExampleAuthor
+api-version: 1.13
 
 # Automatically filled in at build time, DO NOT CHANGE
 name: ${project.name}
