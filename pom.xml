@@ -5,10 +5,10 @@
 
 	<!-- Change these as necessary -->
 	<groupId>me.jeeeeef</groupId>
-	<artifactId>exams</artifactId>
+	<artifactId>artifactid</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Exams</name>
-	<description>Exams plugin</description>
+	<name>Name</name>
+	<description>Description</description>
 	<!-- Change these as necessary -->
 
 	<repositories>
