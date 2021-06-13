@@ -28,6 +28,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>${project.name}-${project.version}</finalName>
 		<extensions>
 			<!-- Enabling the use of FTP -->
 			<extension>
@@ -78,13 +79,6 @@
 				<includes>
 					<include>plugin.yml</include>
 				</includes>
-			</resource>
-			<resource>
-				<directory>src/main/resources</directory>
-				<filtering>false</filtering>
-				<excludes>
-					<exclude>plugin.yml</exclude>
-				</excludes>
 			</resource>
 		</resources>
 	</build>
