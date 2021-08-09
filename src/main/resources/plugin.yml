@@ -1,6 +1,6 @@
 # Change main and author as needed
-main: com.package.name.pluginpackage.MainClass
-author: ExampleAuthor
+main: me.jeeeeef.awarefix.AwareFix
+author: Jeeeeef
 api-version: 1.13
 
 # Automatically filled in at build time, DO NOT CHANGE
@@ -10,6 +10,7 @@ description: ${project.description}
 
 # Register commands
 commands:
-    commandname:
-      description: This is a demo command.
-      usage: /<command> [player]
+    fixaware:
+      description: Fix awareness of entities in current chunk.
+      usage: /fixaware
+      permission: fixaware.use

@@ -5,9 +5,9 @@
 
 	<!-- Change these as necessary -->
 	<groupId>me.jeeeeef</groupId>
-	<artifactId>artifactid</artifactId>
+	<artifactId>awarefix</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Name</name>
+	<name>AwareFix</name>
 	<description>Description</description>
 	<!-- Change these as necessary -->
 
@@ -21,7 +21,7 @@
 		<dependency>
 			<groupId>org.spigotmc</groupId>
 			<artifactId>spigot-api</artifactId>
-			<version>1.16.5-R0.1-SNAPSHOT</version>
+			<version>1.17.1-R0.1-SNAPSHOT</version>
 			<type>jar</type>
 			<scope>provided</scope>
 		</dependency>
